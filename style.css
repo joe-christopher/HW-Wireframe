@@ -1,0 +1,63 @@
+/* style.css file for homework #1 - Buildin a Wireframe */
+body {
+        width: 960px;
+        background-color: #777;
+        text-align: center;
+        font-size: 18px;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        margin: auto;  /* horizontally center element within its container */
+        line-height: 30px;
+
+        }
+  
+  header, nav, section, aside, footer {
+    text-align: center;
+    padding: 10px; /* generate space around element's content, inside of any defined borders */
+    margin: 10px; /*  create space around elements, outside of any defined borders */
+    color: #777;
+    background: #ebebeb;
+    display: block; /* displays header, nav, section, aside, footer as block elements */
+    }
+
+.clear{clear:both;}
+
+  
+  section {
+        float: left; /* section floats to left of container */
+        width: 500px;
+        height: 270px;
+        display: block; /* displays section as block element */
+        overflow: hidden; /* if any content overflows from section box, it will be clipped and not displayed */
+        background: #ebebeb;
+        color: #777;
+
+  }
+
+  article {
+    color:#ebebeb;
+    padding: 10px; /* generate space around element's content, inside of any defined borders */
+    background: #777;
+    display: block; /* displays article as block element */
+    
+    
+
+  }
+
+  h1, p{
+    background: #ebebeb;
+    padding: 10px; /* generate space around element's content, inside of any defined borders */
+    color: #777;
+    margin: 10px;
+    width: 90%;
+    text-align: center;
+
+  }
+  
+    
+  aside {
+    float: right; /* section floats to right of container */
+    display: block; /* displays aside as block element */
+    overflow: hidden; /* if any content overflows from aside box, it will be clipped and not displayed */
+    width: 375px;
+    height: 270px;
+  }
